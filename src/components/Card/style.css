@@ -1,0 +1,16 @@
+.card {
+  background: blue;
+  border-radius: 10px;
+  
+}
+
+.cardImg {
+  text-align: center;
+}
+
+.cardName {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
