@@ -63,8 +63,8 @@ function PokemonList() {
       </div>
       
       <div className="btn_preview_next">
-        <button onClick={previous}>Prev</button>
-        <button onClick={next}>Next</button>
+        <button className="btn_preview_next_button" onClick={previous}>Prev</button>
+        <button className="btn_preview_next_button" onClick={next}>Next</button>
       </div>
     </PageDefault>
   );

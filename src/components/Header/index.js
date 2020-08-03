@@ -7,9 +7,6 @@ function Header(){
     <header>
       <img className='logo' src="https://fontmeme.com/permalink/200520/a6dd59a6e8f4e7c50fcde7db78bab361.png" alt="Pokedex"/>
 
-      <button className='ButtonLink'>
-        Favoritos
-      </button>
     </header>
   )
 }
