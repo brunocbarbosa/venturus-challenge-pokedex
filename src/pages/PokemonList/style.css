@@ -17,7 +17,7 @@
   margin: 20px 0;
 }
 
-.btn_preview_next button {
+.btn_preview_next_button {
   border-style: none;
   padding: 5px 10px;
   margin-right: 10px;
@@ -25,4 +25,8 @@
   background: #30a7d7;
   color: #fff;
   font-size: 1em;
+}
+
+.btn_preview_next_button:hover {
+  opacity: .5;
 }
