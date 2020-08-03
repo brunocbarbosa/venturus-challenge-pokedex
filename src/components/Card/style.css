@@ -1,8 +1,22 @@
 .card {
-  background: blue;
+  background: var(--white);
   border-radius: 10px;
   
 }
+
+.cardTypes {
+  display: flex;
+  justify-content: center;    
+}
+
+.cardType {
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  background: cyan;
+  color: #fff;
+}
+
 
 .cardImg {
   text-align: center;
@@ -14,3 +28,12 @@
   font-weight: 800;
 }
 
+.openButton{
+  background-color: var(--black);
+  color: white;
+  align: center;
+}
+
+.openButton:hover{
+  opacity:initial ;
+}
